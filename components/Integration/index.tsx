@@ -59,10 +59,10 @@ const Integration = () => {
               className="animate_top w-1/6"
             >
               <div className="inline-block rounded-[10px] bg-white p-4.5 shadow-solid-7 dark:bg-btndark">
-                <Image
+                <img
                   width={50}
                   height={50}
-                  src="./images/brand/brand-07.svg"
+                  src="https://pbs.twimg.com/profile_images/1772331192085274624/PlbkwMwX_400x400.png"
                   alt="Brand"
                 />
               </div>
@@ -106,10 +106,10 @@ const Integration = () => {
               className="animate_top w-1/6"
             >
               <div className="inline-block rounded-[10px] bg-white p-4.5 shadow-solid-7 dark:bg-btndark">
-                <Image
+                <img
                   width={50}
                   height={50}
-                  src="./images/brand/brand-08.svg"
+                  src="https://sweetwaternow.nyc3.cdn.digitaloceanspaces.com/wp-content/uploads/2024/01/Depositphotos_676194222_XL-1-scaled.jpg"
                   alt="Brand"
                 />
               </div>

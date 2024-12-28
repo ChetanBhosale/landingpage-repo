@@ -71,7 +71,7 @@ const FunFact = () => {
               className="animate_top text-center"
             >
               <h3 className="mb-2.5 text-3xl font-bold text-black dark:text-white xl:text-sectiontitle3">
-                100+
+                50+
               </h3>
               <p className="text-lg lg:text-para2">Companies</p>
             </motion.div>
@@ -87,7 +87,7 @@ const FunFact = () => {
               className="animate_top text-center"
             >
               <h3 className="mb-2.5 text-3xl font-bold text-black dark:text-white xl:text-sectiontitle3">
-                1000+
+                500+
               </h3>
               <p className="text-lg lg:text-para2">Joinis</p>
             </motion.div>
@@ -103,7 +103,7 @@ const FunFact = () => {
               className="animate_top text-center"
             >
               <h3 className="mb-2.5 text-3xl font-bold text-black dark:text-white xl:text-sectiontitle3">
-                800+
+                90%
               </h3>
               <p className="text-lg lg:text-para2">Happy Employees</p>
             </motion.div>
