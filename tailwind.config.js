@@ -29,12 +29,12 @@ module.exports = {
         titlebgdark: "#0047AB",
         btndark: "#292E45",
         white: "#FFFFFF",
-        black: "#ED7014",
-        blackho: "#0047AB",
+        black: "#000000",
+        blackho: "#ED7014",
         blacksection: "#0047AB",
         primary: {
           DEFAULT: "#ED7014", // Dominant logo color
-          dark: "rgb(37, 150, 190)", // Darker shade
+          dark: "#0047AB", // Darker shade
           accent: "#0047AB", // Slight variation for accents
           lighter: "#0047AB", // Another lighter shade
         },

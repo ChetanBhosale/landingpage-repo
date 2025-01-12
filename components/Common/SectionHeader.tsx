@@ -32,7 +32,7 @@ const SectionHeader = ({ headerInfo }: { headerInfo: HeaderInfo }) => {
         className="animate_top mx-auto text-center"
       >
         <div className="mb-4 inline-block rounded-full bg-zumthor px-4.5 py-1.5 dark:border dark:border-strokedark dark:bg-blacksection">
-          <span className="text-sectiontitle font-medium text-black dark:text-white">
+          <span className="text-sectiontitle font-medium text-[#ED7014] dark:text-white">
             {title}
           </span>
         </div>
