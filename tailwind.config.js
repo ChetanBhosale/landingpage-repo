@@ -13,24 +13,31 @@ module.exports = {
   theme: {
     fontFamily: {
       inter: ["Inter", "sans-serif"],
+      sans: ["Roboto", "Poppins", "Montserrat", "Arial", "sans-serif"],
+      heading: ["Poppins", "Roboto", "Montserrat", "Arial", "sans-serif"],
+      body: ["Montserrat", "Roboto", "Poppins", "Arial", "sans-serif"],
     },
     extend: {
       colors: {
-        current: "currentColor",
+        current: "#0047AB",
         transparent: "transparent",
         stroke: "#EEEEEE",
         strokedark: "#2D2F40",
-        hoverdark: "#252A42",
-        titlebg: "#ADFFF8",
-        titlebg2: "#FFEAC2",
-        titlebgdark: "#46495A",
+        hoverdark: "#0047AB",
+        titlebg: "#0047AB",
+        titlebg2: "#0047AB",
+        titlebgdark: "#0047AB",
         btndark: "#292E45",
         white: "#FFFFFF",
-        black: "#181C31",
-        blackho: "#2C3149",
-        blacksection: "#1C2136",
-        primary: "#006BFF",
-        primaryho: "#0063EC",
+        black: "#ED7014",
+        blackho: "#0047AB",
+        blacksection: "#0047AB",
+        primary: {
+          DEFAULT: "#ED7014", // Dominant logo color
+          dark: "rgb(37, 150, 190)", // Darker shade
+          accent: "#0047AB", // Slight variation for accents
+          lighter: "#0047AB", // Another lighter shade
+        },
         meta: "#20C5A8",
         waterloo: "#757693",
         manatee: "#999AA1",

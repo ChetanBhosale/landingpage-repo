@@ -1,11 +1,10 @@
-import image1 from "@/public/images/user/user-01.png";
 import { Testimonial } from "@/types/testimonial";
 
 export const testimonialData: Testimonial[] = [
   {
     id: 1,
     name: "Sanket Tijare",
-    designation: "Manager HR & Admin – Corporate, Gargi \n Huttenes AlbertusIndia Pvt. Ltd.",
+    designation: "Manager HR & Admin – Corporate, Gargi Huttenes Albertus India Pvt. Ltd.",
     image: 'https://www.gargi-india.com/images/home_rotativa1_fondo.jpg',
     content: "Our collaboration with ExuberantHR Consulting has transformed our hiring strategy. They consistently deliver top-tier candidates and provide exceptional support throughout the recruitment process. Their expertise in recruitment and dedication to understanding our requirements have led to successful hires that have made a real difference in our organization.",
   },
@@ -19,8 +18,71 @@ export const testimonialData: Testimonial[] = [
   {
     id: 3,
     name: "Deepak Obhan",
-    designation: "Vice President - Human Resources, \n Lloyds Engineering Works Ltd.",
+    designation: "Vice President - Human Resources, Lloyds Engineering Works Ltd.",
     image: 'https://www.lloydsengg.in/wp-content/uploads/2024/07/Lloyds-Engineering-Works_Logo-01.png',
     content: "I am delighted to recommend ExuberantHR for their exceptional recruitment services. From the outset, they demonstrated professionalism, dedication and a genuine understanding of our needs. Their attention to detail and personalized approach ensured that we were presented with highly qualified candidates who not only matched the job requirements but also aligned with our company culture.",
+  },
+  {
+    id: 4,
+    name: "Disha Chatha",
+    designation: "Manager – Human Resources (West), Blue Dart Express Ltd.",
+    image: 'https://www.bluedart.com/image/layout_set_logo?img_id=1414225&t=1736355357025',
+    content: "Due to recent staff turnover and vacancies, we found ourselves needing to fill multiple positions in our fast-paced finance department. After reaching out to several agencies for assistance in recruiting temp-to-full-time positions, we engaged with ExuberantHR Consulting. Their level of service, prompt attention, consistent follow-up, and the quality of candidates they provided were exceptional, showcasing their effective recruiting and screening process. I confidently recommend ExuberantHR Consulting for their services.",
+  },
+  {
+    id: 5,
+    name: "Samruddhi Dhon",
+    designation: "HR Manager, Lloyds Enterprises Ltd.",
+    image: 'https://www.lloydsenterprises.in/wp-content/uploads/2024/07/WhatsApp-Image-2024-07-29-at-17.45.19.jpeg',
+    content: "Working with ExuberantHR Consulting has been a seamless experience. Their expertise in sourcing top talent for our critical roles has significantly reduced our hiring timelines. From understanding our requirements to ensuring smooth onboarding, their professionalism and dedication are unparalleled. They truly are our trusted recruitment partner.",
+  },
+  {
+    id: 6,
+    name: "Sayali Sawant",
+    designation: "Recruitment Manager, PVR Controls Pvt. Ltd.",
+    image: 'https://www.shutterstock.com/image-vector/circle-line-simple-design-logo-600nw-2174926871.jpg',
+    content: "ExuberantHR Consulting's ability to maintain and manage a high-quality candidate database is exceptional. Their systematic approach ensures that we always have access to the right talent at the right time. They've been instrumental in helping us build a robust and skilled workforce for our organization.",
+  },
+  {
+    id: 7,
+    name: "Divya Kapoor",
+    designation: "Operations Lead, Biotechnology Company",
+    image: 'https://pvrcontrols.com/assets/images/logo.png',
+    content: "When we had a critical requirement for a Principal Statistical Programmer, ExuberantHR Consulting delivered beyond our expectations. Their expertise in finding candidates for niche roles and leadership positions is commendable. They understand the complexity of our industry and always deliver quality over quantity.",
+  },
+  {
+    id: 8,
+    name: "Sangeet Shrivasta",
+    designation: "Head HR, Vform Technopack Pvt. Ltd.",
+    image: 'https://www.shutterstock.com/image-vector/circle-line-simple-design-logo-600nw-2174926871.jpg',
+    content: "ExuberantHR Consulting's Emotional Intelligence and NLP workshops have transformed the way our teams work together. The sessions, led by Dr. Smita Manjavkar and Jyothi Bhosle, have been highly impactful, improving leadership and collaboration. We are already seeing a positive change in our team's morale and productivity.",
+  },
+  {
+    id: 9,
+    name: "Rahul Mehta",
+    designation: "HR Director, Tech Innovators Ltd.",
+    image: 'https://www.shutterstock.com/image-vector/circle-line-simple-design-logo-600nw-2174926871.jpg',
+    content: "ExuberantHR Consulting has been a game-changer for our recruitment process. Their ability to understand our niche requirements and deliver candidates who not only fit the role but also our company culture is remarkable. Their team is always available for support, making the entire process smooth and efficient.",
+  },
+  {
+    id: 10,
+    name: "Priya Sharma",
+    designation: "Talent Acquisition Lead, HealthCare Solutions Inc.",
+    image: 'http://healthcaresolutionsinc.net/img/logo.jpg',
+    content: "We have been working with ExuberantHR Consulting for over a year now, and they have consistently exceeded our expectations. Their deep industry knowledge and proactive approach have helped us fill critical roles quickly and effectively. They are truly a partner we can rely on.",
+  },
+  {
+    id: 11,
+    name: "Anil Kumar",
+    designation: "Senior HR Manager, Green Energy Corp.",
+    image: 'https://www.greenergycorp.in/images/logo.png',
+    content: "ExuberantHR Consulting's ability to source and screen candidates for specialized roles in the renewable energy sector is unparalleled. Their team's dedication and expertise have been instrumental in helping us build a strong and capable workforce.",
+  },
+  {
+    id: 12,
+    name: "Neha Gupta",
+    designation: "HR Head, FinTech Solutions Pvt. Ltd.",
+    image: 'https://fintech.com.np/wp-content/uploads/2022/03/FintechLogo.png',
+    content: "ExuberantHR Consulting has been a trusted partner in our recruitment journey. Their ability to understand our unique needs and deliver top-notch candidates has been invaluable. Their professionalism and commitment to excellence are truly commendable.",
   },
 ];
