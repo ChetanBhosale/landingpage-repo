@@ -2,8 +2,9 @@ import React from "react";
 import { FeatureTab } from "@/types/featureTab";
 import Image from "next/image";
 
-const FeaturesTabItem = ({ featureTab }: { featureTab: FeatureTab }) => {
-  const { title, desc1, desc2, image, imageDark } = featureTab;
+const FeaturesTabItem = ({ featureTab }) => {
+  const { title, desc1, desc2, features, marketTrend, image, imageDark } =
+    featureTab;
 
   return (
     <>
@@ -13,15 +14,42 @@ const FeaturesTabItem = ({ featureTab }: { featureTab: FeatureTab }) => {
             {title}
           </h2>
           <p className="mb-5">{desc1}</p>
-          <p className="w-11/12">{desc2}</p>
+          {desc2 && <p className="mb-5">{desc2}</p>}
+
+          {/* Features List */}
+          {features && (
+            <ul className="mb-5 list-disc pl-5">
+              {features.map((feature, index) => (
+                <li key={index} className="mb-2">
+                  {feature}
+                </li>
+              ))}
+            </ul>
+          )}
+
+          {/* Market Trend */}
+          {marketTrend && (
+            <div className="mt-5 p-4 bg-primary bg-opacity-10 rounded-lg">
+              <p className="text-sm italic text-black dark:text-white">
+                <span className="font-semibold">Market Trend:</span> {marketTrend}
+              </p>
+            </div>
+          )}
         </div>
+
+        {/* Image Section */}
         <div className="relative mx-auto hidden aspect-[562/366] max-w-[550px] md:block md:w-1/2">
-          <Image src={image} alt={title} fill className="dark:hidden" />
+          <Image
+            src={image}
+            alt={title}
+            fill
+            className="rounded-lg object-cover dark:hidden"
+          />
           <Image
             src={imageDark}
             alt={title}
             fill
-            className="hidden dark:block"
+            className="rounded-lg object-cover hidden dark:block"
           />
         </div>
       </div>
