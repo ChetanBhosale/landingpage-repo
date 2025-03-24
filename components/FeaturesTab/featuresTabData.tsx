@@ -57,8 +57,8 @@ const featuresTabData = [
     ],
     marketTrend:
       "Many businesses are adopting C2H to minimize hiring risks and ensure role-fit alignment before extending permanent employment.",
-      image: "/images/my-img/featurelist.jpg",
-      imageDark: "/images/my-img/featurelist.jpg",
+      image: "/images/image1.avif",
+      imageDark: "/images/image1.avif",
   },
   {
     id: "tabFive",
@@ -71,8 +71,8 @@ const featuresTabData = [
     ],
     marketTrend:
       "RPO is rapidly growing as companies seek specialized recruitment partners to streamline hiring processes and reduce cost-per-hire.",
-      image: "/images/my-img/featurelist1.jpg",
-      imageDark: "/images/my-img/featurelist1.jpg",
+      image: "/images/image2.avif",
+      imageDark: "/images/image2.avif",
   },
   {
     id: "tabSix",
@@ -86,8 +86,8 @@ const featuresTabData = [
     ],
     marketTrend:
       "Organizations are increasingly investing in employee upskilling and leadership training to stay competitive in a rapidly evolving job market.",
-      image: "/images/my-img/featurelist3.jpg",
-      imageDark: "/images/my-img/featurelist3.jpg",
+      image: "/images/image3.avif",
+      imageDark: "/images/image3.avif",
   },
 ];
 

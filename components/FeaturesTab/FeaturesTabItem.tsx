@@ -5,6 +5,7 @@ import Image from "next/image";
 const FeaturesTabItem = ({ featureTab }) => {
   const { title, desc1, desc2, features, marketTrend, image, imageDark } =
     featureTab;
+    
 
   return (
     <>

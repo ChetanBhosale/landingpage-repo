@@ -12,7 +12,7 @@ const SingleTestimonial = ({ review }: { review: Testimonial }) => {
           </h3>
           <p>{designation}</p>
         </div>
-        <div className="w-30 flex items-center justify-center rounded-full bg-blue-100">
+        <div className="w-30 flex items-center justify-center rounded-full bg-black">
         <img width={60} height={50} className="w-full h-full object-contain" src={image} alt={name} />
         </div>
        
