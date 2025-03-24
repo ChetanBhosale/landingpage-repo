@@ -92,7 +92,7 @@ const About = () => {
         <div className="mx-auto max-w-7xl px-4 md:px-8 xl:px-0">
           <div className="text-center mb-12">
             <motion.h2
-              className="text-4xl font-bold text-black dark:text-white mb-4"
+              className="text-4xl font-bold text-blue-950 dark:text-white mb-4"
               initial={{ opacity: 0, y: -20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8 }}
@@ -100,7 +100,7 @@ const About = () => {
               Sectors We Cater To
             </motion.h2>
             <motion.p
-              className="text-lg text-gray-600 dark:text-gray-400"
+              className="text-lg text-orange-500"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ duration: 1, delay: 0.3 }}
@@ -142,12 +142,12 @@ const About = () => {
                 </div>
 
                 {/* Title */}
-                <h3 className="text-xl font-semibold text-black dark:text-white text-center">
+                <h3 className="text-xl font-semibold text-blue-950 dark:text-white text-center">
                   {sector.title}
                 </h3>
 
                 {/* Description */}
-                <p className="text-sm text-gray-600 dark:text-gray-400 text-center mt-3">
+                <p className="text-sm text-orange-500 text-center mt-3">
                   {sector.description}
                 </p>
 

@@ -5,7 +5,7 @@ const brandData: Brand[] = [
     id: 0.25,
     name: "Client",
     href: "https://lloyds.in/",
-    image: "https://lloyds.in/wp-content/uploads/2023/03/logo1.png",
+    image: "https://lloyds.in/wp-content/themes/lloyds-metals-new/img/lloyds-metals-logo.svg",
     imageLight: "https://lloyds.in/wp-content/uploads/2023/03/logo1.png",
   },
   {
@@ -40,7 +40,7 @@ const brandData: Brand[] = [
     id: 0.7,
     name: "Client",
     href: "https://kores.in/",
-    image: "https://kores.in/wp-content/uploads/2013/04/kores_logo1.png",
+    image: "https://kores.in/admin/uploads/storedImages/logo-kores~99ef.svg",
     imageLight: "https://kores.in/wp-content/uploads/2013/04/kores_logo1.png",
   },
 ];

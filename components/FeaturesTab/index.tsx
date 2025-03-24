@@ -57,12 +57,12 @@ const FeaturesTab = () => {
                 }`}
               >
                 <div className="flex h-12.5 w-12.5 items-center justify-center rounded-[50%] border border-stroke dark:border-strokedark dark:bg-blacksection">
-                  <p className="text-metatitle3 font-medium text-black dark:text-white">
+                  <p className="text-metatitle3 font-medium text-blue-950 dark:text-white">
                     {`0${index + 1}`}
                   </p>
                 </div>
                 <div className="md:w-3/5 lg:w-auto">
-                  <button className="text-sm font-medium text-black dark:text-white xl:text-regular">
+                  <button className="text-sm font-medium text-blue-950 dark:text-white xl:text-regular">
                     {feature.title}
                   </button>
                 </div>
@@ -98,7 +98,7 @@ const FeaturesTab = () => {
                   </p>
                 </div>
                 <div className="md:w-3/5 lg:w-auto">
-                  <button className="text-sm font-medium text-black dark:text-white xl:text-regular">
+                  <button className="text-sm font-medium text-blue-950 dark:text-white xl:text-regular">
                     {feature.title}
                   </button>
                 </div>
