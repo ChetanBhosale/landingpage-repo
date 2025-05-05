@@ -59,8 +59,8 @@ const Services = () => {
         transition={{ duration: 0.8 }}
         className="text-center mb-12"
       >
-        <h1 className="text-5xl font-bold text-gray-800 mb-4 uppercase my-18">Our Exceptional Services</h1>
-        <p className="text-gray-600 text-lg">We provide the best solutions tailored to your needs, ensuring excellence and satisfaction.</p>
+        <h1 className="text-5xl font-bold text-orange-500 mb-4 uppercase my-18">Our Exceptional Services</h1>
+        <p className="text-orange-500 text-lg">We provide the best solutions tailored to your needs, ensuring excellence and satisfaction.</p>
       </motion.div>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
         {services.map((service, index) => (
@@ -77,10 +77,10 @@ const Services = () => {
               className="w-full h-96 object-cover"
             />
             <div className="p-6">
-              <h2 className="text-3xl font-semibold text-gray-800 mb-4">
+              <h2 className="text-3xl font-semibold text-orange-500 mb-4">
                 {service.name}
               </h2>
-              <p className="text-gray-600 text-sm">
+              <p className="text-blue-950 text-sm">
                 {service.description}
               </p>
             </div>
