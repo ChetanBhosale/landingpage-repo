@@ -11,7 +11,7 @@ const CTA = () => {
         <div className="mx-auto max-w-c-1390">
           <div className="text-center mb-20">
             <motion.h2
-              className="text-3xl font-bold text-blue-950 dark:text-white xl:text-sectiontitle4"
+              className="text-3xl font-bold text-orange-500 dark:text-white xl:text-sectiontitle4"
               variants={{
                 hidden: { opacity: 0, y: -20 },
                 visible: { opacity: 1, y: 0 },
@@ -24,7 +24,7 @@ const CTA = () => {
               Why Choose Us?
             </motion.h2>
             <motion.p
-              className="text-lg text-orange-500"
+              className="text-lg text-blue-950"
               variants={{
                 hidden: { opacity: 0 },
                 visible: { opacity: 1 },
@@ -51,10 +51,10 @@ const CTA = () => {
               viewport={{ once: true }}
               className="p-6 rounded-xl shadow-lg bg-white dark:bg-gray-800 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2"
             >
-              <h3 className="text-xl font-semibold text-blue-950 dark:text-white">
+              <h3 className="text-xl font-semibold text-orange-500 dark:text-white">
                 ✅ Industry-Specific Expertise
               </h3>
-              <p className="mt-3 text-sm text-orange-500">
+              <p className="mt-3 text-sm text-blue-950">
                 We understand sector-specific challenges and deliver recruitment
                 solutions tailored to your business needs.
               </p>
@@ -70,10 +70,10 @@ const CTA = () => {
               viewport={{ once: true }}
               className="p-6 rounded-xl shadow-lg bg-white dark:bg-gray-800 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2"
             >
-              <h3 className="text-xl font-semibold text-blue-950 dark:text-white">
+              <h3 className="text-xl font-semibold text-orange-500 dark:text-white">
                 ✅ Access to Niche Talent
               </h3>
-              <p className="mt-3 text-sm text-orange-500">
+              <p className="mt-3 text-sm text-blue-950">
                 Our extensive database ensures you find the right professionals,
                 from specialists to senior executives.
               </p>
@@ -89,10 +89,10 @@ const CTA = () => {
               viewport={{ once: true }}
               className="p-6 rounded-xl shadow-lg bg-white dark:bg-gray-800 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2"
             >
-              <h3 className="text-xl font-semibold text-blue-950 dark:text-white">
+              <h3 className="text-xl font-semibold text-orange-500 dark:text-white">
                 ✅ Future-Ready Hiring
               </h3>
-              <p className="mt-3 text-sm text-orange-500">
+              <p className="mt-3 text-sm text-blue-950">
                 We stay ahead of industry trends to connect businesses with
                 talent that drives innovation and success.
               </p>
@@ -101,7 +101,7 @@ const CTA = () => {
 
           <div className="mt-12 text-center">
             <motion.p
-              className="text-lg text-orange-500"
+              className="text-lg text-blue-950"
               variants={{
                 hidden: { opacity: 0 },
                 visible: { opacity: 1 },
@@ -139,7 +139,7 @@ const CTA = () => {
               viewport={{ once: true }}
               className="animate_left md:w-[70%] lg:w-1/2"
             >
-              <h2 className="mb-12 w-11/12 my-10 text-3xl font-bold text-blue-950 dark:text-white xl:text-sectiontitle4">
+              <h2 className="mb-12 w-11/12 my-10 text-3xl font-bold text-orange-500 dark:text-white xl:text-sectiontitle4">
                 A Message from Our CEO
               </h2>
               <p className="text-gray-700 dark:text-gray-300">

@@ -62,7 +62,7 @@ const FeaturesTab = () => {
                   </p>
                 </div>
                 <div className="md:w-3/5 lg:w-auto">
-                  <button className="text-sm font-medium text-blue-950 dark:text-white xl:text-regular">
+                  <button className="text-sm font-medium text-orange-500 dark:text-white xl:text-regular">
                     {feature.title}
                   </button>
                 </div>
@@ -98,7 +98,7 @@ const FeaturesTab = () => {
                   </p>
                 </div>
                 <div className="md:w-3/5 lg:w-auto">
-                  <button className="text-sm font-medium text-blue-950 dark:text-white xl:text-regular">
+                  <button className="text-sm font-medium text-orange-500 dark:text-white xl:text-regular">
                     {feature.title}
                   </button>
                 </div>

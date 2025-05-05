@@ -24,13 +24,13 @@ const Hero = () => {
         <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
           <div className="flex lg:items-center lg:gap-8 xl:gap-32.5">
             <div className="md:w-1/2">
-              <h4 className="mb-4.5 text-lg font-medium text-blue-950">
+              <h4 className="mb-4.5 text-lg font-medium text-orange-500">
                 🔥 ExuberantHR - Recruitment Redefined
               </h4>
-              <h1 className="mb-5 pr-16 text-3xl font-bold text-blue-950  xl:text-hero ">
+              <h1 className="mb-5 pr-16 text-3xl font-bold   xl:text-hero text-orange-500">
                 Your Trusted Talentmine!
               </h1>
-              <p className="mb-5 text-orange-500">
+              <p className="mb-5 text-blue-950">
                 At ExuberantHR Consulting, we go beyond recruitment—we build
                 high-performing teams that drive business success. As Your
                 Trusted Talentmine, we specialize in identifying top-tier talent,
@@ -40,13 +40,13 @@ const Hero = () => {
                 the best professionals.
               </p>
 
-              <ul className="mb-5 list-disc pl-5 text-orange-500">
+              <ul className="mb-5 list-disc pl-5 text-blue-950">
                 <li>Industry-Specific Hiring Solutions</li>
                 <li>Strategic Talent Acquisition</li>
                 <li>Seamless Recruitment Process Optimization</li>
               </ul>
 
-              <p className="mb-10 text-orange-500">
+              <p className="mb-10 text-blue-950">
                 Partner with us to unlock the full potential of your workforce and
                 take your business to new heights.
               </p>

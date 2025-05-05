@@ -47,12 +47,12 @@ const FunFact = () => {
             whileInView="visible"
             transition={{ duration: 1, delay: 0.1 }}
             viewport={{ once: true }}
-            className="animate_top mx-auto mb-12.5 px-4 text-blue-950 text-center md:w-4/5 md:px-0 lg:mb-17.5 lg:w-2/3 xl:w-1/2"
+            className="animate_top mx-auto mb-12.5 px-4 text-orange-500 text-center md:w-4/5 md:px-0 lg:mb-17.5 lg:w-2/3 xl:w-1/2"
           >
             <h2 className="mb-4 text-3xl font-bold  xl:text-sectiontitle3">
               Empowering Organizations Globally
             </h2>
-            <p className="mx-auto lg:w-11/12 text-orange-500">
+            <p className="mx-auto lg:w-11/12 text-blue-950">
               We are committed to delivering excellence and building a thriving network of satisfied organizations and employees.
             </p>
           </motion.div>
@@ -73,7 +73,7 @@ const FunFact = () => {
               <h3 className="mb-2.5 text-3xl font-bold text-black dark:text-white xl:text-sectiontitle3">
                 50+
               </h3>
-              <p className="text-lg lg:text-para2 text-orange-500">Companies</p>
+              <p className="text-lg lg:text-para2 text-blue-950">Companies</p>
             </motion.div>
             <motion.div
               variants={{
@@ -89,7 +89,7 @@ const FunFact = () => {
               <h3 className="mb-2.5 text-3xl font-bold text-black dark:text-white xl:text-sectiontitle3">
                 500+
               </h3>
-              <p className="text-lg lg:text-para2 text-orange-500">Joinings</p>
+              <p className="text-lg lg:text-para2 text-blue-950">Joinings</p>
             </motion.div>
             <motion.div
               variants={{
@@ -105,7 +105,7 @@ const FunFact = () => {
               <h3 className="mb-2.5 text-3xl font-bold text-black dark:text-white xl:text-sectiontitle3">
                 90%
               </h3>
-              <p className="text-lg lg:text-para2 text-orange-500">Happy Employees</p>
+              <p className="text-lg lg:text-para2 text-blue-950">Happy Employees</p>
             </motion.div>
           </div>
         </div>
